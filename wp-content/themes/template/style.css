@@ -1,0 +1,1175 @@
+/*
+Theme Name: Template
+Description: Тема для сайта Зеленое золото
+Author: AlxL5
+Version: 1.0
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+header, nav, section, article, aside, footer {
+    display: block;
+}
+
+body {
+    font: 12px/18px Arial, Tahoma, Verdana, sans-serif;
+    width: 100%;
+    height: 100%;
+    background: #85B837 url(images/body_bg.jpg);
+    background-size: cover;
+}
+
+a {
+    color: black;
+    outline: none;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+p {
+    margin: 0 0 18px
+}
+
+img {
+    border: none;
+}
+
+input {
+    vertical-align: middle;
+}
+
+#wrapper {
+    width: 940px;
+    margin: 0 auto;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+}
+
+.clr {
+    clear: both;
+}
+
+/* Header
+-----------------------------------------------------------------------------*/
+#header {
+    height: 155px;
+    padding-top: 85px;
+    /* background: #FFE680; */
+}
+
+/* Breadcrumbs
+-----------------------------------------------------------------------------*/
+#breadcrumbs {
+    height: 18px;
+}
+
+/* Middle
+-----------------------------------------------------------------------------*/
+#content {
+    padding: 0 0 100px 0;
+}
+
+/* Footer
+-----------------------------------------------------------------------------*/
+#footer {
+    /* width: 940px; */
+    width: 100%;
+    margin: -60px auto 0;
+    height: 60px;
+    background: #000;
+    position: relative;
+}
+
+/*main page*/
+.top_headings {
+    background: url(images/main_heading.png) center center no-repeat;
+    height: 77px;
+    text-align: center;
+    margin-bottom: 55px;
+    margin-top: 50px;
+}
+
+.top_headings .headings_title {
+    font-size: 44px;
+    line-height: 39px;
+    padding-bottom: 15px;
+    color: #231f20;
+    text-transform: uppercase;
+    font-family: Hagin;
+    font-weight: normal;
+}
+
+.top_headings .headings_title_bott {
+    font-size: 28px;
+    color: #231f20;
+    text-transform: uppercase;
+    font-family: Hagin;
+    font-weight: normal;
+}
+
+.sl_left_side {
+    width: 300px;
+    float: left;
+}
+
+.tubus {
+    width: 286px;
+    float: left;
+}
+
+.tubus_img {
+    padding-bottom: 6px;
+    background: url(images/tubus_shadow.png) bottom center no-repeat;
+    text-align: center;
+}
+
+.tubus_img img {
+    padding-left: 20px;
+}
+
+.prod_name_ribbon {
+    display: block;
+    width: 286px;
+
+    background: url(images/ribbon.png) left no-repeat;
+    font-family: Georgia;
+    font-size: 16px;
+    line-height: 13px;
+    color: #6f500d;
+    text-decoration: none;
+    text-align: center;
+    padding: 22px 0 31px;
+}
+
+.prod_name_ribbon:hover {
+    display: block;
+    width: 286px;
+    padding: 22px 0 31px;
+    background: url(images/ribbon.png) -286px no-repeat;
+    cursor: pointer;
+}
+
+.sl_right_side {
+    width: 300px;
+    float: right;
+}
+
+.slider_l_title {
+    font-family: Georgia;
+    font-size: 24px;
+    line-height: 34px;
+    color: #000;
+    font-weight: normal;
+    background: url(images/sep.png) bottom repeat-x;
+    padding-bottom: 18px;
+    margin-bottom: 18px;
+}
+
+.slides_container p {
+    font-family: Georgia;
+    font-size: 12px;
+    line-height: 17px;
+    font-style: italic;
+    color: #000;
+
+}
+
+.sl_right_side p {
+    font-family: Georgia;
+    font-style: normal !important;
+}
+
+.prod_compl {
+    /* border-bottom: 1px solid #394d0b; */
+}
+
+.compl_line {
+    /* margin-bottom: 35px; */
+}
+
+.compl_line_last {
+    margin-bottom: 18px;
+    border-bottom: 1px solid #394d0b;
+    padding-bottom: 16px;
+}
+
+.prod_compl .prod_compl_lside {
+    width: 175px;
+    height: 100%;
+    float: left;
+}
+
+.pk_prod_name {
+    font-family: Georgia;
+    font-size: 24px;
+    line-height: 34px;
+    color: #000;
+    font-weight: normal;
+}
+
+.pk_prod_name .prod_weight {
+    font-style: italic;
+}
+
+.prod_price {
+    padding-right: 15px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.prod_cnt_rside {
+    float: right;
+    width: 125px;
+    height: 50px;
+}
+
+.prod_cnt, .prod_cnt_1, .prod_cnt_0 {
+    width: 43px;
+    height: 43px;
+    border: 2px solid #3e501d;
+    background: #86a63e;
+    font-family: Georgia;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    outline: none;
+    float: left;
+    margin-right: 15px;
+}
+
+.prod_cnt_inc_decr {
+    float: left;
+    margin-right: 23px;
+}
+
+.prod_cnt_inc_decr .prod_plus {
+    background: url(images/prod_plus.png) center center no-repeat;
+    display: block;
+    width: 14px;
+    height: 8px;
+    margin-top: 10px;
+    margin-bottom: 9px;
+}
+
+.prod_cnt_inc_decr .prod_plus:hover {
+    background: url(images/prod_plus_h.png) center center no-repeat;
+}
+
+.prod_cnt_inc_decr .prod_plus_0 {
+    background: url(images/prod_plus.png) center center no-repeat;
+    display: block;
+    width: 14px;
+    height: 8px;
+    margin-top: 10px;
+    margin-bottom: 9px;
+}
+
+.prod_cnt_inc_decr .prod_plus_0:hover {
+    background: url(images/prod_plus_h.png) center center no-repeat;
+}
+
+.prod_cnt_inc_decr .prod_plus_1 {
+    background: url(images/prod_plus.png) center center no-repeat;
+    display: block;
+    width: 14px;
+    height: 8px;
+    margin-top: 10px;
+    margin-bottom: 9px;
+}
+
+.prod_cnt_inc_decr .prod_plus_1:hover {
+    background: url(images/prod_plus_h.png) center center no-repeat;
+}
+
+.prod_cnt_inc_decr .prod_minus {
+    background: url(images/prod_minus.png) center center no-repeat;
+    display: block;
+    width: 14px;
+    height: 7px;
+}
+
+.prod_cnt_inc_decr .prod_minus:hover {
+    background: url(images/prod_minus_h.png) center center no-repeat;
+}
+
+.prod_cnt_inc_decr .prod_minus_0 {
+    background: url(images/prod_minus.png) center center no-repeat;
+    display: block;
+    width: 14px;
+    height: 7px;
+}
+
+.prod_cnt_inc_decr .prod_minus_0:hover {
+    background: url(images/prod_minus_h.png) center center no-repeat;
+}
+
+.prod_cnt_inc_decr .prod_minus_1 {
+    background: url(images/prod_minus.png) center center no-repeat;
+    display: block;
+    width: 14px;
+    height: 7px;
+}
+
+.prod_cnt_inc_decr .prod_minus_1:hover {
+    background: url(images/prod_minus_h.png) center center no-repeat;
+}
+
+.more_info {
+    font-family: 'CalibriBold';
+    font-size: 14px;
+    color: #FFF;
+    padding: 9px 10px;
+    border-radius: 3px;
+    background: url(images/more_info_bg.png);
+    text-decoration: none;
+    float: right;
+}
+
+.more_info:hover {
+    color: #f6db1b;
+}
+
+.add_to_cart {
+    background: url(images/cart.png) center center no-repeat;
+    width: 17px;
+    height: 17px;
+    display: block;
+    float: left;
+    margin-top: 10px;
+}
+
+.add_to_cart:hover {
+    background: url(images/cart_h.png) center center no-repeat;
+}
+
+.add_to_cart_0 {
+    background: url(images/cart.png) center center no-repeat;
+    width: 17px;
+    height: 17px;
+    display: block;
+    float: left;
+    margin-top: 10px;
+}
+
+.add_to_cart_0:hover {
+    background: url(images/cart_h.png) center center no-repeat;
+}
+
+.add_to_cart_1 {
+    background: url(images/cart.png) center center no-repeat;
+    width: 17px;
+    height: 17px;
+    display: block;
+    float: left;
+    margin-top: 10px;
+}
+
+.add_to_cart_1:hover {
+    background: url(images/cart_h.png) center center no-repeat;
+}
+
+.fixrubl {
+    background: url(images/stfixdefis.png) 0px 0px no-repeat;
+    width: 10px;
+    height: 13px;
+    display: inline-block;
+}
+
+.fixrubl2 {
+    background: url(images/stfixdefis2.png) 0px 0px no-repeat;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+}
+
+.fixrubl3 {
+    background: url(images/stfixdefis3.png) 0px 0px no-repeat;
+    width: 13px;
+    height: 17px;
+    display: inline-block;
+}
+
+.fixrubl5 {
+    background: url(images/stfixdefis4.png) 5px 0px no-repeat;
+    width: 31px;
+    height: 34px;
+    display: inline-block;
+}
+
+.header_top {
+    width: 100%;
+    height: 24px;
+    background: url(images/top_line_bg.png) repeat-x;
+    /* background-position: top left; */
+    position: absolute;
+    padding-top: 61px;
+
+}
+
+.hedaer_currencu {
+
+    background-image: url(images/cur_lng_bg.png);
+
+    float: left;
+
+    margin-left: 25px;
+
+    height: 14px;
+
+    padding: 5px;
+
+    font-size: 14px;
+
+    line-height: 14px;
+
+    color: #88aa3e;
+
+}
+
+.hedaer_currencu a {
+
+    font-size: 14px;
+
+    color: #88aa3e;
+
+    text-decoration: none;
+
+    font-family: 'CalibriBold';
+
+}
+
+.hedaer_currencu a:hover {
+
+    color: #ffde16;
+
+    text-decoration: none;
+
+}
+
+.hedaer_basket {
+
+    /*background-image: url(images/cur_lng_bg.png);*/
+
+    float: left;
+
+    margin-left: 25px;
+
+    height: 14px;
+
+    padding: 5px;
+
+    font-size: 14px;
+
+    line-height: 14px;
+
+    color: #88aa3e;
+
+}
+
+.hedaer_basket a {
+
+    font-size: 14px;
+
+    color: #88aa3e;
+
+    text-decoration: none;
+
+    font-family: 'CalibriBold';
+
+}
+
+.hedaer_basket a:hover {
+
+    color: #ffde16;
+
+    text-decoration: none;
+
+}
+
+.header_lng {
+
+    background-image: url(images/cur_lng_bg.png);
+
+    float: right;
+
+    margin-right: 25px;
+
+    height: 14px;
+
+    padding: 5px;
+
+    font-size: 14px;
+
+    line-height: 14px;
+
+    color: #88aa3e;
+
+}
+
+.header_lng a {
+
+    font-size: 14px;
+
+    color: #88aa3e;
+
+    text-decoration: none;
+
+    font-family: 'CalibriBold';
+
+}
+
+.header_lng a.active, .hedaer_currencu a.active, .hedaer_basket a.activ {
+
+    color: #ffde16;
+
+    cursor: default;
+
+}
+
+.header_lng a:hover {
+
+    color: #ffde16;
+
+    text-decoration: none;
+
+}
+
+.header_menu {
+
+    float: left;
+
+    width: 150px;
+
+    margin-left: 10px;
+
+    margin-top: 35px;
+
+}
+
+.header_menu_last {
+
+    width: 130px !important;
+
+}
+
+.header_menu span {
+
+    font-size: 14px;
+
+    font-family: "Georgia";
+
+    font-style: italic;
+
+}
+
+.header_menu a {
+
+    font-size: 20px;
+
+    color: #ffffff;
+
+    text-decoration: none;
+
+    font-family: 'CalibriBold';
+
+}
+
+.header_menu a:hover {
+
+    color: #ffde16;
+
+    text-decoration: none;
+
+}
+
+.header_menu a.active {
+
+    color: #ffde16;
+
+    text-decoration: none;
+
+    cursor: default;
+
+}
+
+.header_logo {
+
+    float: left;
+
+    width: 320px;
+
+    margin-top: 10px;
+
+    text-align: center;
+
+}
+
+#abs_basket {
+    border-radius: 0 5px 5px 0;
+    position: fixed;
+    top: 250px;
+    left: -200px;
+    width: 213px;
+    padding-right: 7px;
+    height: 100px;
+    padding-top: 15px;
+    z-index: 10;
+    color: #ffde16;
+    background-image: url(images/cur_lng_bg.png);
+    font-family: 'CalibriBold';
+    text-transform: uppercase;
+}
+
+#abs_basket .basket_cont {
+    color: #ffffff;
+    padding-left: 10px;
+    width: 175px;
+    float: left;
+}
+
+#abs_basket .basket_cont span {
+    font-style: italic;
+    margin-top: 10px;
+    display: block;
+    font-size: 16px;
+    color: #ffde16;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#abs_basket .basket_cont a {
+    color: #ffffff;
+}
+
+#abs_basket .basket_title {
+    float: right;
+    text-align: right;
+    line-height: 12px;
+    width: 1px;
+    word-wrap: break-word;
+    padding-right: 7px;
+}
+
+/*Styles for footer by Zoloto Altaja
+
+	Developed by StanislavKO:
+
+		cebuji@i.ua
+
+		skype: gurrawolf
+
+		vk.com/cebuji
+
+ */
+
+#footer {
+
+    color: #fff;
+
+    /* margin: 0 auto; */
+
+}
+
+#st-footwrap {
+
+    margin: 0 auto;
+
+    width: 940px;
+
+}
+
+#footer #st-number {
+    font: 20px/16px Georgia;
+    margin: 14px 20px 0 0;
+    float: left;
+}
+
+#footer #st-reg {
+
+    width: 135px;
+
+    background: url(images/st-sep.png) left center no-repeat;
+
+    float: left;
+
+    margin: 18px 120px 0 0px;
+
+    padding-left: 13px;
+
+    font-family: 'Calibri';
+
+    font-size: 11px;
+
+}
+
+#footer #st-reg a {
+
+    color: #FFF;
+
+}
+
+#footer #st-social {
+
+    width: 130px;
+
+    height: 18px;
+
+    margin-top: 18px;
+
+    float: left;
+
+    position: relative;
+
+    margin-left: 200px;
+
+}
+
+#footer #st-social a {
+
+    display: block;
+
+    float: left;
+
+    width: 20px;
+
+    height: 20px;
+
+    margin-right: 20px;
+
+    position: relative;
+
+    top: 5px;
+
+}
+
+#footer #st-social a:hover {
+
+    top: 5px;
+
+}
+
+#footer .st-sitename {
+
+    font-family: 'Calibri';
+
+    font-size: 11px;
+
+    margin: 23px 15px 0 0px;
+
+    float: right;
+
+}
+
+#footer #st-dev {
+
+    width: 135px;
+
+    background: url(images/st-sep.png) left center no-repeat;
+
+    float: right;
+
+    margin: 18px 0px 0 0px;
+
+    padding-left: 13px;
+
+}
+
+#footer #st-dev a {
+
+    font-family: 'Calibri';
+
+    font-size: 11px;
+
+    color: #FFF;
+
+}
+
+#st-f {
+    background-image: url(images/st-f.png);
+    display: block;
+    float: left;
+    width: 20px;
+    height: 19px !important;
+}
+
+#st-f:hover {
+    background-position: bottom;
+}
+
+#st-v {
+    background-image: url(images/st-v.png);
+    display: block;
+    float: left;
+    width: 20px;
+    height: 19px !important;
+}
+
+#st-v:hover {
+    background-position: 0 20px;
+}
+
+#st-t {
+    background-image: url(images/st-t.png);
+    display: block;
+    float: left;
+    width: 18px !important;
+    height: 18px !important;
+}
+
+#st-t:hover {
+    background-position: bottom;
+}
+
+@font-face {
+    font-family: 'CalibriBold';
+    src: url('fonts/calibri_bold.eot');
+    src: url('fonts/calibri_bold.eot?#iefix') format('embedded-opentype'),
+    url('fonts/calibri_bold.woff') format('woff'),
+    url('fonts/calibri_bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Calibri';
+    src: url('fonts/calibri.eot');
+    src: url('fonts/calibri.eot?#iefix') format('embedded-opentype'),
+    url('fonts/calibri.woff') format('woff'),
+    url('fonts/calibri.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Hagin';
+    src: url('fonts/hagincapsmedium.eot');
+    src: url('fonts/hagincapsmedium.eot?#iefix') format('embedded-opentype'),
+    url('fonts/hagincapsmedium.woff') format('woff'),
+    url('fonts/hagincapsmedium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*Styles for pages article & articles by Zoloto Altaja
+
+	Developed by StanislavKO:
+
+		cebuji@i.ua
+
+		skype: gurrawolf
+
+		vk.com/cebuji
+
+ */
+
+
+
+.st-dateblock{
+
+    width: 60px;
+
+    height: 60px;
+
+    background: #394d0b;
+
+    box-shadow: 0 1px 1px #627a25;
+
+    float: left;
+
+}
+
+
+
+.st-dateblock .st-date{
+
+    color: #ffde16;
+
+    font: 24px/36px Georgia;
+
+    padding-left: 17px;
+
+}
+
+
+
+.st-dateblock .st-month{
+
+    color: #ffde16;
+
+    font: 12px/12px Georgia;
+
+    text-align: center;
+
+}
+
+
+
+#st-advice{
+    padding-left: 80px;
+}
+
+#st-advice h2{
+    color: #000;
+    font: 24px/20px Georgia;
+    margin-bottom: 20px;
+}
+
+#st-advice p{
+    color: #000;
+    font: 12px/17px Georgia;
+}
+
+
+
+#st-advice ul li a{
+
+    display: block;
+
+    width: 16px;
+
+    height: 16px;
+
+    float: left;
+
+    padding: 5px 6px 5px 0;
+
+    position: relative;
+
+    top: 5px;
+
+}
+
+
+
+#st-advice ul li a:hover{
+
+    top: 0px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*STYLES FOR page ARTICLES*/
+
+
+
+.st-headings {
+
+    background: url(../images/main_heading.png) center center no-repeat;
+
+    height: 77px;
+
+    text-align: center;
+
+    margin-bottom: 55px;
+
+}
+
+.st-headings .st-headingstitle {
+
+    font-size: 44px;
+
+    line-height: 82px;
+
+    padding-bottom: 15px;
+
+    color: #231f20;
+
+    text-transform: uppercase;
+
+    font-family: Hagin;
+
+    font-weight: normal;
+
+}
+
+
+
+.st-article{
+
+    width: 100%;
+
+    height: 245px;
+
+    background: url(images/st-separticle.png) top repeat-x;
+
+    padding-top: 25px;
+
+    margin-bottom: 40px;
+
+}
+
+.st-article .st-articletext{
+    padding-left: 80px;
+    line-height: 50px;
+}
+
+
+
+.st-article h2{
+
+    color: #000;
+
+    font: 24px/20px Georgia;
+
+    margin-bottom: 20px;
+
+}
+
+
+
+.st-article p{
+
+    color: #000;
+
+    font: 12px/17px Georgia;
+
+}
+
+
+
+
+
+
+
+a.st-details{
+
+    display: block;
+
+    height: 27px;
+
+    width: 92px;
+
+    background: url(../images/st-buttonbg.png);
+
+    border-radius: 3px;
+
+    box-shadow: 0 0 3px #111;
+
+    color: #f6db1b;
+
+    font-family: 'CalibriBold';
+
+    font-size: 14px;
+
+    text-decoration: none;
+
+    line-height: 27px;
+
+    text-align: center;
+
+    float: right;
+
+}
+
+
+
+a.st-details:hover{
+
+    background: url(../images/st-buttonbgh.png);
+
+}
+
+
+
+#st-pagination{
+
+    margin: 0 auto;
+
+    width: 250px;
+
+    padding-left: 77px;
+
+}
+
+
+
+#st-pagination ul{
+
+    list-style: none;
+
+}
+
+
+
+#st-pagination li a{
+
+    float: left;
+
+    color: #000;
+
+    font: 24px Georgia;
+
+    text-decoration: none;
+
+    margin-right: 20px;
+
+}
+
+
+
+#st-pagination li a:hover{
+
+    color: #f6db1b;
+
+}
+
+
+
+#st-pagination li .st-first{
+
+    background: url(../images/st-paginationarrow.png) left 11px no-repeat;
+
+    padding-left: 30px;
+
+}
+
+
+
+#st-pagination li .st-first:hover{
+
+    background: url(../images/st-paginationarrowh.png) left 11px no-repeat;
+
+}
+
+
+
+#st-pagination li .st-last{
+
+    background: url(../images/st-paginationarrow2.png) right 11px no-repeat;
+
+    padding-right: 30px;
+
+}
+
+
+
+#st-pagination li .st-last:hover{
+
+    background: url(../images/st-paginationarrow2h.png) right 11px no-repeat;
+
+}
+
+.main-heading {
+    margin-bottom: 15px;
+    line-height: normal;
+}
