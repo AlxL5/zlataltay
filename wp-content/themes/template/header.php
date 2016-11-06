@@ -21,7 +21,7 @@
             <span>У нас самые низкие цены в Москве, потому что мы работаем без посредников.</span>
         </div>
         <div class="header_menu">
-            <a href="/">ПРОДУКЦИЯ</a><br/>
+            <a href="<?=get_site_url()?>/products/">ПРОДУКЦИЯ</a><br/>
             <span>Если Вы найдете в Москве дешевле, то мы вернем Вам разницу. </span>
         </div>
         <div class="header_logo">

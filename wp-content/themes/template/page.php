@@ -1,12 +1,20 @@
 <?php get_header(); ?>
-<div id="container">
-    <div class="main-heading">
-        <h1><?php the_title(); ?></h1>
-    </div>
-    <section>
+    <div id="container">
         <?php if (have_posts()): while (have_posts()): the_post(); ?>
-            <?php the_content(); ?>
+        <div class="main-heading">
+            <h1>
+                <?php
+                $post_id = get_the_id();
+                if($post_id != 62)
+                    the_title();
+                ?>
+            </h1>
+        </div>
+        <section>
+
+                <?php the_content(); ?>
+
+        </section>
         <?php endwhile; endif; ?>
-    </section>
     </div><!-- #container-->
 <?php get_footer(); ?>

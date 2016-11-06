@@ -873,9 +873,7 @@ input {
 
  */
 
-
-
-.st-dateblock{
+.st-dateblock {
 
     width: 60px;
 
@@ -889,9 +887,7 @@ input {
 
 }
 
-
-
-.st-dateblock .st-date{
+.st-dateblock .st-date {
 
     color: #ffde16;
 
@@ -901,9 +897,7 @@ input {
 
 }
 
-
-
-.st-dateblock .st-month{
+.st-dateblock .st-month {
 
     color: #ffde16;
 
@@ -913,26 +907,22 @@ input {
 
 }
 
-
-
-#st-advice{
+#st-advice {
     padding-left: 80px;
 }
 
-#st-advice h2{
+#st-advice h2 {
     color: #000;
     font: 24px/20px Georgia;
     margin-bottom: 20px;
 }
 
-#st-advice p{
+#st-advice p {
     color: #000;
     font: 12px/17px Georgia;
 }
 
-
-
-#st-advice ul li a{
+#st-advice ul li a {
 
     display: block;
 
@@ -950,27 +940,13 @@ input {
 
 }
 
-
-
-#st-advice ul li a:hover{
+#st-advice ul li a:hover {
 
     top: 0px;
 
 }
 
-
-
-
-
-
-
-
-
-
-
 /*STYLES FOR page ARTICLES*/
-
-
 
 .st-headings {
 
@@ -1002,9 +978,7 @@ input {
 
 }
 
-
-
-.st-article{
+.st-article {
 
     width: 100%;
 
@@ -1018,14 +992,12 @@ input {
 
 }
 
-.st-article .st-articletext{
+.st-article .st-articletext {
     padding-left: 80px;
     line-height: 50px;
 }
 
-
-
-.st-article h2{
+.st-article h2 {
 
     color: #000;
 
@@ -1035,9 +1007,7 @@ input {
 
 }
 
-
-
-.st-article p{
+.st-article p {
 
     color: #000;
 
@@ -1045,13 +1015,7 @@ input {
 
 }
 
-
-
-
-
-
-
-a.st-details{
+a.st-details {
 
     display: block;
 
@@ -1081,17 +1045,13 @@ a.st-details{
 
 }
 
-
-
-a.st-details:hover{
+a.st-details:hover {
 
     background: url(../images/st-buttonbgh.png);
 
 }
 
-
-
-#st-pagination{
+#st-pagination {
 
     margin: 0 auto;
 
@@ -1101,17 +1061,13 @@ a.st-details:hover{
 
 }
 
-
-
-#st-pagination ul{
+#st-pagination ul {
 
     list-style: none;
 
 }
 
-
-
-#st-pagination li a{
+#st-pagination li a {
 
     float: left;
 
@@ -1125,17 +1081,13 @@ a.st-details:hover{
 
 }
 
-
-
-#st-pagination li a:hover{
+#st-pagination li a:hover {
 
     color: #f6db1b;
 
 }
 
-
-
-#st-pagination li .st-first{
+#st-pagination li .st-first {
 
     background: url(../images/st-paginationarrow.png) left 11px no-repeat;
 
@@ -1143,17 +1095,13 @@ a.st-details:hover{
 
 }
 
-
-
-#st-pagination li .st-first:hover{
+#st-pagination li .st-first:hover {
 
     background: url(../images/st-paginationarrowh.png) left 11px no-repeat;
 
 }
 
-
-
-#st-pagination li .st-last{
+#st-pagination li .st-last {
 
     background: url(../images/st-paginationarrow2.png) right 11px no-repeat;
 
@@ -1161,9 +1109,7 @@ a.st-details:hover{
 
 }
 
-
-
-#st-pagination li .st-last:hover{
+#st-pagination li .st-last:hover {
 
     background: url(../images/st-paginationarrow2h.png) right 11px no-repeat;
 
@@ -1172,4 +1118,33 @@ a.st-details:hover{
 .main-heading {
     margin-bottom: 15px;
     line-height: normal;
+}
+
+.im_iv {
+    margin-bottom: 60px;
+}
+
+.im_iv img {
+    border: 5px solid #b8b8b8;
+}
+
+.column_iv {
+    width: 297px;
+    float: left;
+    margin-right: 20px;
+    padding-bottom: 30px;
+}
+
+.column_iv h2 {
+    font-family: Georgia;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 35px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+    background: url(images/line_bd.png) bottom repeat-x scroll;
+}
+
+.header_text {
+    margin-top: 24px;
 }
