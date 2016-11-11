@@ -1,5 +1,12 @@
 <?php get_header(); ?>
 <div id="container">
+    <div class="breadcrumb" style="margin-bottom: 24px">
+        <?php
+        if (function_exists('bcn_display')) {
+            bcn_display();
+        }
+        ?>
+    </div>
     <div class="st-dateblock">
         <span class="st-date"><?php the_time('j') ?></span>
         <p class="st-month">

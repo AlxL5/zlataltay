@@ -1,5 +1,12 @@
 <?php get_header(); ?>
 <div id="container">
+    <div class="breadcrumb" style="margin-bottom: 20px">
+        <?php
+        if (function_exists('bcn_display')) {
+            bcn_display();
+        }
+        ?>
+    </div>
     <?php
     while (have_posts()) : the_post(); ?>
         <article class="st-article">
