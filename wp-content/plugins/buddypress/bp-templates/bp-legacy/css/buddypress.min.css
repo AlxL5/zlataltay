@@ -1134,6 +1134,7 @@ fieldset.create-site label {
     display: inline-block;
     font-size: small;
     padding: 0;
+    margin-top: 20px;
 }
 
 #buddypress span.user-nicename {
