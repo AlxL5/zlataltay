@@ -18,7 +18,7 @@
         <?php endwhile; endif; ?>
     </div><!-- #container-->
 
-    <div>
+    <div class="social-widgets">
         <script type="text/javascript" src="//vk.com/js/api/openapi.js?136"></script>
 
         <!-- VK Widget -->
