@@ -31,15 +31,20 @@
 
 .widget .customize-partial-edit-shortcut button:active,
 .customize-partial-edit-shortcut button:active {
-	padding: 0;
-	border: 0;
+	padding: 3px;
+	border: 1px solid #0085ba;
 }
 
-/* Styles for the actual shortcut */
+/**
+ * Styles for the actual shortcut
+ *
+ * Note that some properties are overly verbose to prevent theme interference.
+ */
 .widget .customize-partial-edit-shortcut button,
 .customize-partial-edit-shortcut button {
 	position: absolute;
-	left: -36px;
+	left: -30px;
+	top: 2px;
 	color: #fff;
 	width: 30px;
 	height: 30px;
@@ -55,30 +60,9 @@
 	-webkit-box-shadow: 0 2px 1px rgba(46,68,83,0.15);
 	box-shadow: 0 2px 1px rgba(46,68,83,0.15);
 	text-align: center;
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	-webkit-flex-direction: row;
-	-moz-box-orient: horizontal;
-	-moz-box-direction: normal;
-	-ms-flex-direction: row;
-	flex-direction: row;
-	-webkit-box-pack: center;
-	-webkit-justify-content: center;
-	-moz-box-pack: center;
-	-ms-flex-pack: center;
-	justify-content: center;
-	-webkit-box-align: center;
-	-webkit-align-items: center;
-	-moz-box-align: center;
-	-ms-flex-align: center;
-	align-items: center;
 	cursor: pointer;
-	padding: 0;
+	box-sizing: border-box;
+	padding: 3px;
 	-webkit-animation-fill-mode: both;
 	animation-fill-mode: both;
 	-webkit-animation-duration: .4s;
@@ -120,10 +104,6 @@ body.customize-partial-edit-shortcuts-hidden .customize-partial-edit-shortcut bu
 .page-sidebar-collapsed .customize-partial-edit-shortcut button,
 .customize-partial-edit-shortcut-hidden .customize-partial-edit-shortcut button {
 	visibility: hidden;
-}
-
-.customize-partial-edit-shortcut-left-margin.customize-partial-edit-shortcut button {
-	left: 0;
 }
 
 @-webkit-keyframes customize-partial-edit-shortcut-bounce-appear {
@@ -263,7 +243,23 @@ body.customize-partial-edit-shortcuts-hidden .customize-partial-edit-shortcut bu
 }
 
 @media screen and (max-width:800px) {
+	.widget .customize-partial-edit-shortcut button,
 	.customize-partial-edit-shortcut button {
-		left: -18px; /* Assume there will be less of a margin available on smaller screens */
+		left: -32px;
+	}
+}
+
+@media screen and (max-width:320px) {
+	.site-title {
+		padding-left: 10px;
+	}
+
+	.widget-area .widget {
+		padding-left: 10px;
+	}
+
+	.widget .customize-partial-edit-shortcut button,
+	.customize-partial-edit-shortcut button {
+		left: -30px;
 	}
 }

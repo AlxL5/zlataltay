@@ -23,10 +23,10 @@
 define('DB_NAME', 'zlataltay_db');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', 'homestead');
 
 /** MySQL database password */
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', 'secret');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
